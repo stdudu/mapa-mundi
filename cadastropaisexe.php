@@ -6,9 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="cadastropais.php" method="post" enctype="multipart/form-data">
         <fieldset>
             <legend>Cadastro de Pais</legend>
+            <div>
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="foto" accept="image/*">
+            </div>
+            <br>
             <div>
                 <span>Nome</span>
                 <input type="text" name="nome" id="nome">
